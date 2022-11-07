@@ -5,7 +5,7 @@ import CheckoutForm from "./CheckoutForm";
 function BasketContainer(props) {
   return (
     <section className="BasketContainer">
-      <Basket cart={props.cart} />
+      <Basket cart={props.cart} removeFromCart={props.removeFromCart} />
       <CheckoutForm />
     </section>
   );

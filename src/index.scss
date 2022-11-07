@@ -31,6 +31,10 @@ img {
   gap: 2rem;
 }
 .Product {
+  h2 {
+    height: 25px;
+    overflow: hidden;
+  }
 }
 .BasketContainer {
   grid-column: 2;

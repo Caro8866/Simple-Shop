@@ -2,10 +2,10 @@ import React from "react";
 import Basket from "./Basket";
 import CheckoutForm from "./CheckoutForm";
 
-function BasketContainer() {
+function BasketContainer(props) {
   return (
     <section className="BasketContainer">
-      <Basket />
+      <Basket cart={props.cart} />
       <CheckoutForm />
     </section>
   );

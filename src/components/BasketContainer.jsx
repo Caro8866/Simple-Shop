@@ -6,7 +6,6 @@ function BasketContainer(props) {
   return (
     <section className="BasketContainer">
       <Basket cart={props.cart} removeFromCart={props.removeFromCart} />
-      <CheckoutForm />
     </section>
   );
 }
